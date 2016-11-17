@@ -1,0 +1,15 @@
+[new]
+# the new devices you want to set up:
+# - ssh public key of your control machine copied here
+
+raspberrypi  ansible_ssh_user=pi ansible_ssh_host=raspberrypi.local new_hostname=mycoolserver
+
+[fortress]
+# the colleciton of managed devices (new hostnames)
+
+
+[control]
+# your control machine (e.g. a laptop):
+# - you can ssh into the device without a password
+
+localhost ansible_connection=local

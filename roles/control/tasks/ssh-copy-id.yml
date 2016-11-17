@@ -1,0 +1,5 @@
+---
+- name: ssh-copy-id
+  # TODO: use variables here
+  shell: ssh-copy-id -i ~/.ssh/id_rsa.pub pi@raspberrypi.local
+  run_once: false

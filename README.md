@@ -8,7 +8,9 @@ to ssh into your raspberry pi:
     ssh pi@raspberrypi.local
     # password: raspberry
 
-Configure the variables in your *hosts* file.
+Configure the device parameters in your *hosts* file.
+
+    cp hosts.example hosts
 
 Now run the ansible script.
 
